@@ -1,0 +1,176 @@
+{
+  "config": {
+    "references": {
+      "data": {
+        "title": [
+          {
+            "tag": "td",
+            "attrs": {"valign":  "top"}
+          }
+        ],
+        "journal": [
+          {
+            "tag": "i"
+          }
+        ],
+        "volume": [
+          {
+            "xpath": "//tr/td[2]/text()[2]"
+          }
+        ]
+      },
+      "defined-by":[
+        {
+          "xpath": "//table[contains(@class, 'references')]/tbody/tr"
+        }        
+      ]
+    },
+    "title": {
+      "data": {},
+      "defined-by": [
+        {
+          "xpath":"//div[contains(@class, 'publicationContentTitle')]//h1"
+        }
+      ]
+    },
+    "keywords": {
+      "data": {},
+      "defined-by": [
+        {
+          "tag": "kwd-group",
+          "attrs": {"kwd-group-type":["KWD"]}
+        }
+      ]
+    },
+    "abbreviations-table": {
+      "data": {},
+      "defined-by": [
+        {
+          "tag":"table",
+          "attrs":{"class":"glossary"}
+        }
+      ]
+    },
+    "sections": {
+      "data": {
+        "headers": [
+          {
+            "tag": ["div", "h4"],
+            "attrs":{"class":"sectionHeading"}
+          }
+        ]
+      },
+      "defined-by": [
+        {
+          "xpath": "//div[*[starts-with(@class, 'NLM_sec')]]//div[not(ancestor::div[contains(@class, 'tableFooter')]) and not (@class='tableFooter')] | //div[*[starts-with(@class, 'NLM_sec')]]//following-sibling::table | //div[contains(@class, 'hlFld-Abstract')] "
+        }
+      ]
+    },
+    "sub-sections": {
+      "data": {
+        "headers": [
+          {
+            "tag": "div",
+            "attrs":{"class":"head-b"}
+          }
+        ]
+      },
+      "defined-by": [
+        {
+          "tag":"div",
+          "attrs":{"class":"NLM_sec"}
+        }
+      ]
+    },
+    "paragraphs": {
+      "data": {},
+      "defined-by": [
+        {
+          "xpath": "//p[not(ancestor::div[contains(@class, 'article-table-content')])]"
+        }
+      ]
+    },
+    "tables": {
+      "data": {
+        "caption": [
+          {
+            "tag": "b"
+          }
+        ],
+        "table-content": [
+          {
+            "tag": "table"
+          }
+        ],
+        "title": [
+          {
+            "tag":"span",
+            "attrs":{"class":"captionLabel"}
+          }
+        ],
+        "footer": [
+          {
+            "tag":"div",
+            "attrs":{"class":"tableFooter"}
+          }
+        ],
+        "table-row": [
+          {
+            "tag":"tr"
+          }
+        ],
+        "header-row": [
+          {
+            "tag":"thead"
+          }
+        ],
+        "header-element": [
+          {
+            "tag":"th"
+          }
+        ]
+      },
+      "defined-by": [
+        {
+          "tag": "div",
+          "attrs": {"class": "article-table-content"}
+        },
+        {
+          "xpath": "//div[contains(@class, 'article-table-content')]"
+        }
+      ]
+    },
+    "figures": {
+      "data": {
+        "caption": [
+          {
+            "tag": "span",
+            "attrs": {"class": "captionLabel"}
+          }
+        ]
+      },
+      "defined-by": [
+        {
+          "tag": "div",
+          "attrs": { "class": "figure"}
+        }
+      ]
+    }
+  },
+  "contributions": {
+    "author": {
+      "name": "Tom Shorter",
+      "contact_email": "ts339@le.ac.uk",
+      "comments": "Provided with Auto-CORPus for processing PubMed Central HTML files"
+    },
+    "editors": [
+      {
+        "name": "",
+        "contact_email": "",
+        "date_edited": "",
+        "comments": ""
+      }
+    ]
+  },
+  "example_source_HTML_URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4868805/"
+}

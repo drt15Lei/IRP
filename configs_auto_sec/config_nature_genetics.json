@@ -1,0 +1,210 @@
+{
+   "config": {
+      "title": {
+         "defined-by": [
+            {
+               "tag": "h1",
+               "attrs": {
+                  "class": "c-article-title",
+                  "data-test": "article-title",
+                  "data-article-title": "",
+                  "itemprop": "name headline"
+               }
+            }
+         ]
+      },
+      "keywords": {
+         "defined-by": []
+      },
+      "references": {
+         "data": {},
+         "defined-by": [
+            {
+               "tag": "p",
+               "attrs": {
+                  "class": "c-article-references__text",
+                  "id": "ref-CR[0-9]+"
+               }
+            }
+         ]
+      },
+      "sections": {
+         "data": {
+            "headers": [
+               {
+                  "tag": "h2",
+                  "attrs": {
+                     "class": "c-article-section__title js-section-title js-c-reading-companion-sections-item",
+                     "id": "Sec[0-9]+"
+                  }
+               },
+               {
+                  "tag": "button",
+                  "attrs": {
+                     "data-tab-target": "references",
+                     "role": "tab",
+                     "id": "Sec[0-9]+",
+                     "aria-controls": "tabpanel-references",
+                     "aria-selected": "false",
+                     "tabindex": "-1",
+                     "class": "c-reading-companion__tab"
+                  }
+               }
+            ]
+         },
+         "defined-by": [
+            {
+               "tag": "div",
+               "attrs": {
+                  "class": "c-article-section__content",
+                  "id": "Sec[0-9]+"
+               }
+            },
+            {
+               "tag": "img",
+               "attrs": {
+                  "aria-describedby": "figure-1-desc",
+                  "src": "//media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fncomms3549/MediaObjects/41467_2013_Article_BFncomms3549_Fig1_HTML.jpg",
+                  "alt": "figure1",
+                  "loading": "lazy",
+                  "width": "685",
+                  "height": "413"
+               }
+            }
+         ]
+      },
+      "sub-sections": {
+         "data": {
+            "headers": [
+               {
+                  "tag": "h3",
+                  "attrs": {
+                     "class": "c-article__sub-heading",
+                     "id": "Sec[0-9]+"
+                  }
+               },
+               {
+                  "tag": "h3",
+                  "attrs": {
+                     "class": "c-article__sub-heading"
+                  }
+               }
+            ]
+         },
+         "defined-by": []
+      },
+      "paragraphs": {
+         "defined-by": [
+            {
+               "tag": "p",
+               "attrs": {}
+            }
+         ]
+      },
+      "tables": {
+         "data": {
+            "caption": [
+               {
+                  "tag": "div",
+                  "attrs": {
+                     "class": "caption"
+                  }
+               }
+            ],
+            "table-content": [
+               {
+                  "tag": "table"
+               }
+            ],
+            "title": [
+               {
+                  "tag": "h3"
+               }
+            ],
+            "footer": [
+               {
+                  "tag": "div",
+                  "attrs": {
+                     "class": "tblwrap-foot"
+                  }
+               }
+            ],
+            "table-row": [
+               {
+                  "tag": "tr"
+               }
+            ],
+            "header-row": [
+               {
+                  "tag": "thead"
+               }
+            ],
+            "header-element": [
+               {
+                  "tag": "th"
+               }
+            ]
+         },
+         "defined-by": [
+            {
+               "tag": "div",
+               "attrs": {
+                  "class": "table-wrap"
+               }
+            }
+         ]
+      },
+      "figures": {
+         "data": {
+            "caption": [
+               {
+                  "tag": "",
+                  "attrs": {
+                     "": [
+                        ""
+                     ]
+                  }
+               }
+            ]
+         },
+         "defined-by": [
+            {
+               "tag": "",
+               "attrs": {
+                  "": [
+                     ""
+                  ]
+               }
+            }
+         ]
+      },
+      "abbreviations-table": {
+         "defined-by": [
+            {
+               "tag": "",
+               "attrs": {
+                  "": [
+                     ""
+                  ]
+               }
+            }
+         ]
+      }
+   },
+   "contributions": {
+      "author": {
+         "name": "",
+         "contact_email": "",
+         "comments": ""
+      },
+      "editors": [
+         {
+            "name": "",
+            "contact_email": "",
+            "date_edited": "",
+            "comments": ""
+         }
+      ]
+   },
+   "example_source_HTML_URL": ""
+}

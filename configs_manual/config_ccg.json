@@ -1,0 +1,188 @@
+{
+  "config": {
+    "references": {
+      "data": {
+        "title": [
+          {
+            "tag": "span"
+          }
+        ],
+        "journal": [
+          {
+            "tag": "span",
+            "attrs": {"class":  "references__source"}
+          }
+        ],
+        "volume": [
+          {
+            "xpath": "//span/i[2]"
+          }
+        ]
+      },
+      "defined-by":[
+        {
+          "tag": "div",
+          "attrs": {"class": "article__references"}
+        },
+        {
+          "tag": "span",
+          "attrs": {"class" : ["references__note"]}
+        },
+        {
+          "xpath": "//span[contains(@class, 'references__note')]"
+        }
+      ]
+    },
+    "title": {
+      "data": {},
+      "defined-by": [
+        {
+          "tag":"h1",
+          "attrs":{"class":"citation__title"}
+        }
+      ]
+    },
+    "keywords": {
+      "data": {},
+      "defined-by": [
+        {
+          "xpath": "//*[@class='article__keyword']//div[@class='section__body']"
+        }
+      ]
+    },
+    "abbreviations-table": {
+      "data": {},
+      "defined-by": [
+        {
+          "tag":"table",
+          "attrs":{"class":"glossary"}
+        }
+      ]
+    },
+    "sections": {
+      "data": {
+        "headers": [
+          {
+            "tag": "h[2-3]",
+            "attrs": {
+              "class": "article-section__title"
+            }
+          }
+        ]
+      },
+      "defined-by": [
+        {
+          "xpath": "//*[contains(@class, 'article-section__title')] | //*[contains(@class, 'article-section__title')]/following-sibling::*"
+          }
+      ]
+    },
+    "sub-sections": {
+      "data": {
+        "headers": [
+          {
+            "tag": "h[4-6]"
+          }
+        ]
+      },
+      "defined-by": [
+        {
+         "xpath": "//*[contains(@class, 'article-section__title')] | //*[contains(@class, 'article-section__title')]/following-sibling::*"
+        }
+      ]
+    },
+    "paragraphs": {
+      "data": {},
+      "defined-by": [
+        {
+          "tag": "p",
+          "attrs": {"id": "_*[pP|Par]*\\d+"}
+        },
+        {
+          "tag": "p",
+          "xpath": "//div[contains(@class,'sec')]//p"
+        }
+      ]
+    },
+    "tables": {
+      "data": {
+        "caption": [
+          {
+            "tag": "caption"
+          }
+        ],
+        "table-content": [
+          {
+            "tag": "table"
+          }
+        ],
+        "title": [
+          {
+            "tag":"h3"
+          }
+        ],
+        "footer": [
+          {
+            "tag":"tfoot"
+          },
+          {
+            "tag":"td",
+            "attrs":{"valign":"bottom"}          
+          }
+        ],
+        "table-row": [
+          {
+            "tag":"tr"
+          }
+        ],
+        "header-row": [
+          {
+            "tag":"thead"
+          }
+        ],
+        "header-element": [
+          {
+            "tag":"th"
+          }
+        ]
+      },
+      "defined-by": [
+        {
+          "tag": "div",
+          "attrs": {"class":  "article-table-content"}
+        }
+      ]
+    },
+    "figures": {
+      "data": {
+        "caption": [
+          {
+            "tag": "span",
+            "attrs": {"class": "figure__caption"}
+          }
+        ]
+      },
+      "defined-by": [
+        {
+          "tag": "figure",
+          "attrs": { "class": "article__inlineFigure"}
+        }
+      ]
+    }
+  },
+  "contributions": {
+    "author": {
+      "name": "Tom Shorter",
+      "contact_email": "ts339@le.ac.uk",
+      "comments": "Provided with Auto-CORPus for processing PubMed Central HTML files"
+    },
+    "editors": [
+      {
+        "name": "",
+        "contact_email": "",
+        "date_edited": "",
+        "comments": ""
+      }
+    ]
+  },
+  "example_source_HTML_URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4868805/"
+}

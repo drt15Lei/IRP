@@ -1,0 +1,186 @@
+{
+   "config": {
+      "title": {
+         "defined-by": [
+            {
+               "tag": "h1",
+               "attrs": {
+                  "class": "citation__title"
+               }
+            }
+         ]
+      },
+      "keywords": {
+         "defined-by": []
+      },
+      "references": {
+         "data": {},
+         "defined-by": [
+            {
+               "tag": "span",
+               "attrs": {
+                  "class": "references__note"
+               }
+            }
+         ]
+      },
+      "sections": {
+         "data": {
+            "headers": [
+               {
+                  "tag": "span",
+                  "attrs": {}
+               },
+               {
+                  "tag": "strong",
+                  "attrs": {
+                     "class": "section__title"
+                  }
+               }
+            ]
+         },
+         "defined-by": [
+            {
+               "tag": "p",
+               "attrs": {}
+            }
+         ]
+      },
+      "sub-sections": {
+         "data": {
+            "headers": [
+               {
+                  "tag": "span",
+                  "attrs": {}
+               },
+               {
+                  "tag": "h4",
+                  "attrs": {
+                     "class": "article-section__title",
+                     "id": "d[0-9]+"
+                  }
+               }
+            ]
+         },
+         "defined-by": [
+            {
+               "tag": "p",
+               "attrs": {}
+            }
+         ]
+      },
+      "paragraphs": {
+         "defined-by": [
+            {
+               "tag": "p",
+               "attrs": {}
+            }
+         ]
+      },
+      "tables": {
+         "data": {
+            "caption": [
+               {
+                  "tag": "div",
+                  "attrs": {
+                     "class": "caption"
+                  }
+               }
+            ],
+            "table-content": [
+               {
+                  "tag": "table"
+               }
+            ],
+            "title": [
+               {
+                  "tag": "h3"
+               }
+            ],
+            "footer": [
+               {
+                  "tag": "div",
+                  "attrs": {
+                     "class": "tblwrap-foot"
+                  }
+               }
+            ],
+            "table-row": [
+               {
+                  "tag": "tr"
+               }
+            ],
+            "header-row": [
+               {
+                  "tag": "thead"
+               }
+            ],
+            "header-element": [
+               {
+                  "tag": "th"
+               }
+            ]
+         },
+         "defined-by": [
+            {
+               "tag": "div",
+               "attrs": {
+                  "class": "table-wrap"
+               }
+            }
+         ]
+      },
+      "figures": {
+         "data": {
+            "caption": [
+               {
+                  "tag": "",
+                  "attrs": {
+                     "": [
+                        ""
+                     ]
+                  }
+               }
+            ]
+         },
+         "defined-by": [
+            {
+               "tag": "",
+               "attrs": {
+                  "": [
+                     ""
+                  ]
+               }
+            }
+         ]
+      },
+      "abbreviations-table": {
+         "defined-by": [
+            {
+               "tag": "",
+               "attrs": {
+                  "": [
+                     ""
+                  ]
+               }
+            }
+         ]
+      }
+   },
+   "contributions": {
+      "author": {
+         "name": "",
+         "contact_email": "",
+         "comments": ""
+      },
+      "editors": [
+         {
+            "name": "",
+            "contact_email": "",
+            "date_edited": "",
+            "comments": ""
+         }
+      ]
+   },
+   "example_source_HTML_URL": ""
+}

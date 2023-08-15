@@ -1,0 +1,225 @@
+{
+   "config": {
+      "title": {
+         "defined-by": [
+            {
+               "tag": "h1",
+               "attrs": {}
+            }
+         ]
+      },
+      "keywords": {
+         "defined-by": []
+      },
+      "references": {
+         "data": {},
+         "defined-by": [
+            {
+               "tag": "td",
+               "attrs": {
+                  "valign": "top"
+               }
+            }
+         ]
+      },
+      "sections": {
+         "data": {
+            "headers": [
+               {
+                  "tag": "option",
+                  "attrs": {
+                     "value": "#_i5"
+                  }
+               },
+               {
+                  "tag": "option",
+                  "attrs": {
+                     "value": "#_i15"
+                  }
+               },
+               {
+                  "tag": "h5",
+                  "attrs": {
+                     "class": "sticky-title"
+                  }
+               },
+               {
+                  "tag": "option",
+                  "attrs": {
+                     "value": "#_i16"
+                  }
+               },
+               {
+                  "tag": "option",
+                  "attrs": {
+                     "value": "#_i10"
+                  }
+               }
+            ]
+         },
+         "defined-by": [
+            {
+               "tag": "div",
+               "attrs": {
+                  "class": "abstractSection abstractInFull"
+               }
+            },
+            {
+               "tag": "span",
+               "attrs": {
+                  "class": "icon-export_citation tools_dropdown_icons"
+               }
+            },
+            {
+               "tag": "div",
+               "attrs": {
+                  "class": "NLM_sec NLM_sec_level_2"
+               }
+            },
+            {
+               "tag": "div",
+               "attrs": {
+                  "class": "NLM_sec NLM_sec_level_1"
+               }
+            }
+         ]
+      },
+      "sub-sections": {
+         "data": {
+            "headers": [
+               {
+                  "tag": "div",
+                  "attrs": {
+                     "class": "head-b"
+                  }
+               },
+               {
+                  "tag": "p",
+                  "attrs": {}
+               }
+            ]
+         },
+         "defined-by": [
+            {
+               "tag": "div",
+               "attrs": {
+                  "class": "NLM_sec NLM_sec_level_2"
+               }
+            }
+         ]
+      },
+      "paragraphs": {
+         "defined-by": [
+            {
+               "tag": "p",
+               "attrs": {}
+            }
+         ]
+      },
+      "tables": {
+         "data": {
+            "caption": [
+               {
+                  "tag": "div",
+                  "attrs": {
+                     "class": "caption"
+                  }
+               }
+            ],
+            "table-content": [
+               {
+                  "tag": "table"
+               }
+            ],
+            "title": [
+               {
+                  "tag": "h3"
+               }
+            ],
+            "footer": [
+               {
+                  "tag": "div",
+                  "attrs": {
+                     "class": "tblwrap-foot"
+                  }
+               }
+            ],
+            "table-row": [
+               {
+                  "tag": "tr"
+               }
+            ],
+            "header-row": [
+               {
+                  "tag": "thead"
+               }
+            ],
+            "header-element": [
+               {
+                  "tag": "th"
+               }
+            ]
+         },
+         "defined-by": [
+            {
+               "tag": "div",
+               "attrs": {
+                  "class": "table-wrap"
+               }
+            }
+         ]
+      },
+      "figures": {
+         "data": {
+            "caption": [
+               {
+                  "tag": "",
+                  "attrs": {
+                     "": [
+                        ""
+                     ]
+                  }
+               }
+            ]
+         },
+         "defined-by": [
+            {
+               "tag": "",
+               "attrs": {
+                  "": [
+                     ""
+                  ]
+               }
+            }
+         ]
+      },
+      "abbreviations-table": {
+         "defined-by": [
+            {
+               "tag": "",
+               "attrs": {
+                  "": [
+                     ""
+                  ]
+               }
+            }
+         ]
+      }
+   },
+   "contributions": {
+      "author": {
+         "name": "",
+         "contact_email": "",
+         "comments": ""
+      },
+      "editors": [
+         {
+            "name": "",
+            "contact_email": "",
+            "date_edited": "",
+            "comments": ""
+         }
+      ]
+   },
+   "example_source_HTML_URL": ""
+}

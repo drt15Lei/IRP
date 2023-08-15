@@ -1,0 +1,339 @@
+{
+   "config": {
+      "title": {
+         "defined-by": [
+            {
+               "tag": "h1",
+               "attrs": {
+                  "class": "wi-article-title article-title-main"
+               }
+            }
+         ]
+      },
+      "keywords": {
+         "defined-by": []
+      },
+      "references": {
+         "data": {},
+         "defined-by": [
+            {
+               "tag": "div",
+               "attrs": {
+                  "class": "article-title"
+               }
+            },
+            {
+               "tag": "div",
+               "attrs": {
+                  "class": "citation element-citation"
+               }
+            }
+         ]
+      },
+      "sections": {
+         "data": {
+            "headers": [
+               {
+                  "tag": "h2",
+                  "attrs": {
+                     "scrollto-destination": "37435098",
+                     "id": "[0-9]+",
+                     "class": "section-title",
+                     "data-legacy-id": "s3"
+                  }
+               },
+               {
+                  "tag": "h2",
+                  "attrs": {
+                     "scrollto-destination": "37435085",
+                     "id": "[0-9]+",
+                     "class": "section-title",
+                     "data-legacy-id": "s2"
+                  }
+               },
+               {
+                  "tag": "h2",
+                  "attrs": {
+                     "scrollto-destination": "37435080",
+                     "id": "[0-9]+",
+                     "class": "abstract-title"
+                  }
+               },
+               {
+                  "tag": "h2",
+                  "attrs": {
+                     "scrollto-destination": "37435161",
+                     "id": "[0-9]+",
+                     "class": "backreferences-title"
+                  }
+               },
+               {
+                  "tag": "h2",
+                  "attrs": {
+                     "scrollto-destination": "37435111",
+                     "id": "[0-9]+",
+                     "class": "section-title",
+                     "data-legacy-id": "s4"
+                  }
+               }
+            ]
+         },
+         "defined-by": [
+            {
+               "tag": "section",
+               "attrs": {
+                  "class": "abstract"
+               }
+            },
+            {
+               "tag": "span",
+               "attrs": {
+                  "class": "xrefLink",
+                  "id": "jumplink-cor[0-9]+"
+               }
+            }
+         ]
+      },
+      "sub-sections": {
+         "data": {
+            "headers": [
+               {
+                  "tag": "h3",
+                  "attrs": {
+                     "scrollto-destination": "37435126",
+                     "id": "[0-9]+",
+                     "class": "section-title",
+                     "data-legacy-id": "s4f"
+                  }
+               },
+               {
+                  "tag": "h3",
+                  "attrs": {
+                     "scrollto-destination": "37435154",
+                     "id": "[0-9]+",
+                     "class": "section-title",
+                     "data-legacy-id": "s4n"
+                  }
+               },
+               {
+                  "tag": "h3",
+                  "attrs": {
+                     "scrollto-destination": "37435117",
+                     "id": "[0-9]+",
+                     "class": "section-title",
+                     "data-legacy-id": "s4b"
+                  }
+               },
+               {
+                  "tag": "h3",
+                  "attrs": {
+                     "scrollto-destination": "37435113",
+                     "id": "[0-9]+",
+                     "class": "section-title",
+                     "data-legacy-id": "s4a"
+                  }
+               },
+               {
+                  "tag": "h3",
+                  "attrs": {
+                     "scrollto-destination": "37435121",
+                     "id": "[0-9]+",
+                     "class": "section-title",
+                     "data-legacy-id": "s4d"
+                  }
+               },
+               {
+                  "tag": "h3",
+                  "attrs": {
+                     "scrollto-destination": "37435152",
+                     "id": "[0-9]+",
+                     "class": "section-title",
+                     "data-legacy-id": "s4m"
+                  }
+               },
+               {
+                  "tag": "h3",
+                  "attrs": {
+                     "scrollto-destination": "37435124",
+                     "id": "[0-9]+",
+                     "class": "section-title",
+                     "data-legacy-id": "s4e"
+                  }
+               },
+               {
+                  "tag": "h3",
+                  "attrs": {
+                     "scrollto-destination": "37435131",
+                     "id": "[0-9]+",
+                     "class": "section-title",
+                     "data-legacy-id": "s4h"
+                  }
+               },
+               {
+                  "tag": "h3",
+                  "attrs": {
+                     "scrollto-destination": "37435149",
+                     "id": "[0-9]+",
+                     "class": "section-title",
+                     "data-legacy-id": "s4l"
+                  }
+               },
+               {
+                  "tag": "span",
+                  "attrs": {}
+               },
+               {
+                  "tag": "h3",
+                  "attrs": {
+                     "scrollto-destination": "37435137",
+                     "id": "[0-9]+",
+                     "class": "section-title",
+                     "data-legacy-id": "s4i"
+                  }
+               },
+               {
+                  "tag": "h3",
+                  "attrs": {
+                     "scrollto-destination": "37435128",
+                     "id": "[0-9]+",
+                     "class": "section-title",
+                     "data-legacy-id": "s4g"
+                  }
+               },
+               {
+                  "tag": "h4",
+                  "attrs": {
+                     "scrollto-destination": "37435138",
+                     "id": "[0-9]+",
+                     "class": "section-title",
+                     "data-legacy-id": "s4i1"
+                  }
+               }
+            ]
+         },
+         "defined-by": [
+            {
+               "tag": "div",
+               "attrs": {
+                  "class": "block-child-p"
+               }
+            }
+         ]
+      },
+      "paragraphs": {
+         "defined-by": [
+            {
+               "tag": "p",
+               "attrs": {
+                  "class": "chapter-para"
+               }
+            }
+         ]
+      },
+      "tables": {
+         "data": {
+            "caption": [
+               {
+                  "tag": "div",
+                  "attrs": {
+                     "class": "caption"
+                  }
+               }
+            ],
+            "table-content": [
+               {
+                  "tag": "table"
+               }
+            ],
+            "title": [
+               {
+                  "tag": "h3"
+               }
+            ],
+            "footer": [
+               {
+                  "tag": "div",
+                  "attrs": {
+                     "class": "tblwrap-foot"
+                  }
+               }
+            ],
+            "table-row": [
+               {
+                  "tag": "tr"
+               }
+            ],
+            "header-row": [
+               {
+                  "tag": "thead"
+               }
+            ],
+            "header-element": [
+               {
+                  "tag": "th"
+               }
+            ]
+         },
+         "defined-by": [
+            {
+               "tag": "div",
+               "attrs": {
+                  "class": "table-wrap"
+               }
+            }
+         ]
+      },
+      "figures": {
+         "data": {
+            "caption": [
+               {
+                  "tag": "",
+                  "attrs": {
+                     "": [
+                        ""
+                     ]
+                  }
+               }
+            ]
+         },
+         "defined-by": [
+            {
+               "tag": "",
+               "attrs": {
+                  "": [
+                     ""
+                  ]
+               }
+            }
+         ]
+      },
+      "abbreviations-table": {
+         "defined-by": [
+            {
+               "tag": "",
+               "attrs": {
+                  "": [
+                     ""
+                  ]
+               }
+            }
+         ]
+      }
+   },
+   "contributions": {
+      "author": {
+         "name": "",
+         "contact_email": "",
+         "comments": ""
+      },
+      "editors": [
+         {
+            "name": "",
+            "contact_email": "",
+            "date_edited": "",
+            "comments": ""
+         }
+      ]
+   },
+   "example_source_HTML_URL": ""
+}
